@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #72778c;
+}
+
+.logo{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+.logo a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.logo a span{
+    color: #c6a868;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.other-items ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 0px;
+}
+
+.other-items li{
+    padding: 8px;
+    margin: 8px;
+    list-style: none;
+}
+
+.other-items li a{
+    text-decoration: none;
+    font-size: large;
+    color: aliceblue;
+}
+
+.other-items button a{
+    background-color: #72778c;
+    padding: 15px 30px;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-style: solid;
+    border-radius: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+#Home{
+    color: #c6a868;
+}
+
+#Login:hover {
+    background-color: aliceblue;
+    font-weight: bold;
+}
+
+#Login:hover a{
+    color: black;
+}
+
+#Login{
+    display: inline-block;
+    padding: 10px 25px;
+    border: 1px solid aliceblue;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+}
+
+.other-items li a:hover{
+    color: #c6a868;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+.search-box {
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 1000px;
+    margin: 10px 0px;
+}
+
+.search-button {
+    background-color: #c6a868;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 15px 0px;
+    margin-right: 20px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    background-color: #3b3e4b;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: #3b3e4b;
+}
+
+.container1 h2{
+    color: #c6a868;
+    font-size: 1.4375rem;
+}
+
+.container1 h1{
+    color: aliceblue;
+    font-size: 3.3125rem;
+}
+
+.container1 p{
+    color: #c6c7cc;
+    font-size: 1.125rem;
+    margin: 10px 0px;
+}
+
+.button1{
+    display: inline-block;
+    padding: 20px 35px;
+    border: 1px solid #c6a868;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+    background-color: #c6a868;
+    margin-right: 10px;
+}
+
+.button1 a, .button2 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+
+.button2{
+    display: inline-block;
+    padding: 20px 35px;
+    border: 1px solid aliceblue;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+}
+
+.button1:hover{
+    background-color: #eddaaf;
+}
+
+.button2:hover{
+    background-color: aliceblue;
+    font-weight: bold;
+}
+
+.button2:hover a{
+    color: black;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0px;
+    width: 1900px;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.logos span{
+    color: #506167;
+}
+
+.logos img{
+    width: 120;
+    height: 80px;
+}
+
+.Popular-searches{
+    margin-left: -580px;
+    margin-bottom: 100px;
+    color: #506167;
+}
+
+.Popular-searches a{
+    color: #506167;
+    margin: 5px;
+}
+
+.search-items:hover{
+    color: #c6a868;
+}
+
+.search-container i{
+    position: relative;
+    left: 20px;
+    top: 3px;
+}
+
+
